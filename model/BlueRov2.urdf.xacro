@@ -109,6 +109,12 @@
       </geometry>
     </collision-->
     <buoyancy>
+        <compensation>1.01</compensation>
+        <origin xyz= "0.0 0.0 -0.0"/>
+        <limit radius=".5"/>
+        <damping xyz="60 100 100" rpy="20 50 50"/>
+    </buoyancy>
+    <!--buoyancy>
         <compensation>0.2525</compensation>
         <origin xyz= "0.12585 0.111 -0.8945"/>
     </buoyancy>
@@ -123,7 +129,7 @@
     <buoyancy>
         <compensation>0.2525</compensation>
         <origin xyz= "0.12585 -0.111 -0.8945"/>
-    </buoyancy>
+    </buoyancy-->
   </link>
 
   <link name="camera_link">
