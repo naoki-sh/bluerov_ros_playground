@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="underwater">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  <!--
+  <include>
+    <uri>model://Box</uri>
+    <pose>10 5 0 0 0 0</pose>
+  </include>
+  <include>
+    <uri>model://BlueRov2</uri>
+    <pose>0 0 0 0 0 0</pose>
+  </include>
+-->
+  <gui>
+    <camera name="user_camera">
+      <pose>13.5 -5.5 2.5 0.0 0.112 2.320</pose>
+    </camera>
+  </gui>
+  </world>
+</sdf>

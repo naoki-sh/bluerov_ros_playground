@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find bluerov_ros_playground)/launch/bluerov2_spawn.launch" />
+  <include file="$(find bluerov_ros_playground)/launch/target_spawn.launch" />
+
+</launch>
+
