@@ -2,7 +2,7 @@
 
 <launch>
 
-  <arg name="model" default="$(find bluerov_ros_playground)/model/BlueRov2.urdf.xacro"/>
+  <arg name="model" default="$(find bluerov_ros_playground)/urdfs/BlueRov2.xacro"/>
   <arg name="rvizconfig" default="$(find bluerov_ros_playground)/model/model.rviz" />
   
   <node name="rviz" pkg="rviz" type="rviz" required="true"  args="-d $(arg rvizconfig)"/>
