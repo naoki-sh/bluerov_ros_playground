@@ -127,7 +127,7 @@
   <joint name="collector_left_joint" type="fixed">
     <child link="collector_left" />
     <parent link="base_link" />
-    <origin xyz="0 0.15 0.23" rpy="0 0 0" />
+    <origin xyz="0 0.175 0.23" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <gazebo reference="collector_left">
@@ -161,7 +161,7 @@
   <joint name="collector_right_joint" type="fixed">
     <child link="collector_right" />
     <parent link="base_link" />
-    <origin xyz="0 -0.15 0.23" rpy="0 0 0" />
+    <origin xyz="0 -0.175 0.23" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <gazebo reference="collector_right">
@@ -171,7 +171,7 @@
   <link name='collector_front'>
     <visual>
       <geometry>
-        <box size="0.01 0.30 0.15" />
+        <box size="0.01 0.35 0.15" />
       </geometry>
       <material name="black"/>
     </visual>
@@ -205,7 +205,7 @@
   <link name='collector_back'>
     <visual>
       <geometry>
-        <box size="0.01 0.30 0.15" />
+        <box size="0.01 0.35 0.15" />
       </geometry>
       <material name="black"/>
     </visual>
